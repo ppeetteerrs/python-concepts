@@ -4,4 +4,4 @@
 git pull
 
 # Update conda environment
-mamba env update -n python-concepts -f environment.yml --prune
+mamba update -n python-concepts --file requirements.txt

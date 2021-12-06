@@ -1,5 +1,4 @@
 #!/bin/sh
 
-echo "PRE-COMMIT: Exporting conda envionment python-concepts to environment.yml"
-mamba env export -n python-concepts -f environment.yml
-git add -A
+echo "PRE-COMMIT: Exporting dependencies to requirements.txt"
+pipreqsnb --force .
