@@ -1,1 +1,10 @@
-# python-concepts
+# Setup
+
+```bash
+./setup.sh
+```
+# Pull
+
+```bash
+./update.sh
+```
